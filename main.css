@@ -42,7 +42,7 @@
 .jumbotron .container {
   top: 10%;
   height: 130px;
-  position: relative;
+  position: relative; 
   background-color: #5a5a5a;
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   opacity: 0.3;
@@ -50,6 +50,7 @@
 }
 
 .jumbotron .container .text{
+  position: static;
   line-height: 10px;
 }
 .jumbotron .container h1 {
@@ -86,7 +87,9 @@
 }
 
 .picture{
- position:relative;
+ display: inline;
+ position:absolute;
+ top: 125px;
  float: right;
  margin-right: 50px;
  margin-left: 65.5%;
@@ -94,7 +97,7 @@
 
 }
 .picture img {
-  position: relative;
+  position: static;
   height: 100%;
   width: 100%;
 }
