@@ -1,22 +1,18 @@
 .nav{
-
-}
-
-.nav{
-  margin-top: 30px;
-  background-color: #5a5a5a;
-  padding: 10px;
+  background-color: green;
+  padding: 5px;
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: red;
+
 }
 
 .nav a {
-  color: white;
-  font-size: 14px;
+  color: red;
+  font-size: 18px;
   padding: 20px 20px; 
   text-transform: uppercase;
-  text-decoration: none; 
-  display: inline;
+  text-decoration: none;
+  background-color: #5a5a5a;
+
 
 }
 
@@ -24,18 +20,20 @@
   display: inline;
 
 }
-/*
+
 .navleft {
-  color:red;
   float: left;
   display: inline;
+  background-color: #5a5a5a;
 }
-
 .navright{
   font-color: red;
   float: right;
   display: inline;
-}*/
+  background-color: #5a5a5a;
+
+}
+
 .jumbotron {
   background-image:url('hancock.jpg');
   height: 500px;
@@ -70,16 +68,3 @@
   color: #fff;
 }
 */
-.learn-more {
-  background-color: #f7f7f7;
-}
-
-.learn-more h3 {
-  font-family: 'Shift', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.learn-more a {
-  color: #00b0ff;
-}
