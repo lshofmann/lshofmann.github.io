@@ -39,21 +39,22 @@
   z-index: 1;
 }
 
-.jumbotron .container {
+.jumbotron .banner {
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   top: 10%;
   height: 130px;
   position: relative; 
   background-color: #5a5a5a;
-  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
   opacity: 0.3;
   z-index: 2;
 }
 
-.jumbotron .container .text{
+.jumbotron .banner .text{
   position: static;
   line-height: 10px;
 }
-.jumbotron .container h1 {
+.jumbotron .banner h1 {
   position: static;
   font-size: 50px;
   padding-left: 60px;
@@ -62,7 +63,7 @@
   font-weight: 200;
 }
 
-.jumbotron .container p {
+.jumbotron .banner p {
   position: static; 
   display: inline;
   padding-left: 60px;
@@ -102,3 +103,16 @@
   width: 100%;
 }
 
+.textbox{
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+  bottom: -20%;
+  margin-left: 60px;
+  padding-top: 20px;
+  padding-left: 30px;
+  background-color: white;
+  height: 215px;
+  width: 490px;
+  opacity: 0.5;
+
+}
