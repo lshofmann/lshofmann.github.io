@@ -95,15 +95,15 @@
  margin-right: 50px;
  margin-left: 65.5%;
  z-index: 5; 
-
 }
+
 .picture img {
   position: static;
   height: 100%;
   width: 100%;
 }
 
-.textbox{
+.textbox-left{
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: justify;
   position: relative;
@@ -119,10 +119,27 @@
 
 }
 
-.textbox h3{
+.textbox-left h3{
   line-height: 2px;
 }
 
+.textbox-right{
+ display: inline;
+ font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+ text-align: justify;
+ position:relative;
+ top: -66%;
+ height: 415px;
+ float: right;
+ margin-right: 50px;
+ margin-left: 65.5%;
+ padding-top: 10px;
+ padding-left: 30px;  
+ padding-right: 30px;
+ background-color: white;
+ opacity: 0.5;
+ z-index: 5; 
+}
 .text-emphasis{
   font-weight: bold;
 }
