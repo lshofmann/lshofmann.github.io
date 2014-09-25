@@ -120,6 +120,14 @@
 }
 
 .textbox-left h3{
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 2px;
+}
+
+.textbox-right h3{
+  font-size: 16px;
+  text-transform: uppercase;
   line-height: 2px;
 }
 
@@ -129,10 +137,10 @@
  text-align: justify;
  position:relative;
  top: -66%;
- height: 415px;
+ height: 410px;
  float: right;
+ width: 590px;
  margin-right: 50px;
- margin-left: 65.5%;
  padding-top: 10px;
  padding-left: 30px;  
  padding-right: 30px;
@@ -142,4 +150,10 @@
 }
 .text-emphasis{
   font-weight: bold;
+}
+
+.textbox-right ul{
+margin-top: -3px;
+margin-bottom: 3px;
+list-style-type: square;
 }
