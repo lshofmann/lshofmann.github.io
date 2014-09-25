@@ -31,10 +31,11 @@
 }
 
 .jumbotron {
-  /*background-image:url('hancock.jpg'); */ 
+  background-image:url('hancock.jpg');  
   height: 490px;
   background-repeat: no-repeat;
   background-size: cover;
+
   z-index: 1;
 }
 
@@ -48,22 +49,24 @@
   z-index: 2;
 }
 
+.jumbotron .container .text{
+  line-height: 10px;
+}
 .jumbotron .container h1 {
+  position: static;
   font-size: 50px;
   padding-left: 60px;
-  padding-top: 30px;
+  padding-top: 40px;
   color: white;
   font-weight: 200;
-  z-index: 3;
 }
 
 .jumbotron .container p {
-  position: relative; 
+  position: static; 
   display: inline;
   padding-left: 60px;
   font-size: 20px;
   font-weight: 0;
-  z-index: 3;
 }
 
 .resume {
@@ -86,8 +89,7 @@
  position:relative;
  float: right;
  margin-right: 50px;
- margin-left: 875px;
- background-color: red;
+ margin-left: 65.5%;
  z-index: 5; 
 
 }
