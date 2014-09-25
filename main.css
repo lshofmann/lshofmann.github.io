@@ -74,20 +74,29 @@ html {
   font-weight: 0;
 }
 
-.picture{
+.picture-background{
  display: inline;
- position:absolute;
- top: 125px;
+ position:relative;
+ top: -130px;
+ height: 480px;
  float: right;
+ width: 590px;
  margin-right: 50px;
- margin-left: 65.5%;
+ padding-top: 10px;
+ padding-left: 30px;  
+ padding-right: 30px;
+ background-color: white;
+ opacity: 0.5;
  z-index: 5; 
 }
 
-.picture img {
-  position: static;
-  height: 100%;
-  width: 100%;
+.jumbotron img {
+  position: absolute;
+  top: 148px;
+  right: 190px;
+  height: 400px;
+  text-align: right;
+  z-index: 6;
 }
 
 .text-emphasis{
