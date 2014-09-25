@@ -1,19 +1,18 @@
 .nav{
-  background-color: green;
-  padding: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height:50px;
+  background-color: #9a9a9a;
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-
 }
 
 .nav a {
-  color: red;
+  color: white;
   font-size: 18px;
-  padding: 20px 20px; 
+  padding-left: 20px; 
+  padding-right: 20px; 
   text-transform: uppercase;
   text-decoration: none;
-  background-color: #5a5a5a;
-
-
 }
 
 .nav li {
@@ -24,14 +23,12 @@
 .navleft {
   float: left;
   display: inline;
-  background-color: #5a5a5a;
 }
+
 .navright{
   font-color: red;
   float: right;
   display: inline;
-  background-color: #5a5a5a;
-
 }
 
 .jumbotron {
@@ -42,11 +39,11 @@
 }
 
 .jumbotron .container {
+  top: 10%;
+  height: 130px;
   position: relative;
   background-color: #5a5a5a;
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  top: 10%;
-  /*left: 65px; */
   opacity: 0.3;
 }
 
