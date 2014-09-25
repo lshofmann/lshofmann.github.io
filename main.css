@@ -118,3 +118,11 @@
   opacity: 0.5;
 
 }
+
+.textbox h3{
+  line-height: 2px;
+}
+
+.text-emphasis{
+  font-weight: bold;
+}
