@@ -1,13 +1,13 @@
 .nav{
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 15px;
   height:50px;
-  background-color: #9a9a9a;
+  background-color: #7a7a7a;
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .nav a {
   color: white;
+  font-weight: 300;
   font-size: 18px;
   padding-left: 20px; 
   padding-right: 20px; 
@@ -26,14 +26,14 @@
 }
 
 .navright{
-  font-color: red;
+  margin-right: 30px;
   float: right;
   display: inline;
 }
 
 .jumbotron {
   background-image:url('hancock.jpg');
-  height: 500px;
+  height: 490px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -42,16 +42,29 @@
   top: 10%;
   height: 130px;
   position: relative;
+
   background-color: #5a5a5a;
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   opacity: 0.3;
 }
 
-.jumbotron .container .h1 {
-  color: blue;
-  font-weight: thin;
-  opacity: 1;
+.jumbotron .container h1 {
+  font-size: 50px;
+  padding-left: 60px;
+  padding-top: 30px;
+  color: white;
+  font-weight: 200;
 }
+
+.jumbotron .container p {
+  position: relative; 
+  display: inline;
+  padding-left: 60px;
+  font-size: 20px;
+  font-weight: 0;
+}
+
+
 /*
 .jumbotron h1 {
   color: black;
