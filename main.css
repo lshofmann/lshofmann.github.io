@@ -1,3 +1,6 @@
+html {
+  height: 100%;
+}
 .nav{
   margin-top: 15px;
   height:50px;
@@ -71,22 +74,6 @@
   font-weight: 0;
 }
 
-.resume {
-  background-color: #cccccc;
-  text-align: center;
-  /*margin-left: 60px; */
-  margin-top: 30px;
-  /*margin-right: 50px; */
-  padding-top: 60px;
-  /*padding-bottom: 50px; */
-  position: relative;
-  height:200%;
-}
-.resume object{
-  width: 100%; 
-  height: 195%;
-}
-
 .picture{
  display: inline;
  position:absolute;
@@ -103,6 +90,9 @@
   width: 100%;
 }
 
+.text-emphasis{
+  font-weight: bold;
+}
 .textbox-left{
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: justify;
@@ -117,21 +107,6 @@
   width: 455px;
   opacity: 0.5;
 
-}
-
-.textbox-left h3{
-  font-size: 16px;
-  text-transform: uppercase;
-  line-height: 2px;
-  margin-bottom: 8px;
-
-}
-
-.textbox-right h3{
-  font-size: 16px;
-  text-transform: uppercase;
-  line-height: 2px;
-  margin-bottom: 8px;
 }
 
 .textbox-right{
@@ -151,8 +126,19 @@
  opacity: 0.5;
  z-index: 5; 
 }
-.text-emphasis{
-  font-weight: bold;
+
+.textbox-left h3{
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 2px;
+  margin-bottom: 8px;
+}
+
+.textbox-right h3{
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 2px;
+  margin-bottom: 8px;
 }
 
 .textbox-right ul{
@@ -160,3 +146,5 @@ margin-top: -3px;
 margin-bottom: 3px;
 list-style-type: square;
 }
+
+
