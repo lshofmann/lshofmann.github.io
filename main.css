@@ -1,6 +1,7 @@
 html {
   height: 100%;
 }
+
 .nav{
   margin-top: 15px;
   height:50px;
@@ -71,7 +72,6 @@ html {
   display: inline;
   padding-left: 60px;
   font-size: 20px;
-  font-weight: 0;
 }
 
 .picture-background{
@@ -103,13 +103,17 @@ html {
   font-weight: bold;
 }
 
+.text-emphasis2{
+  font-style: italic;
+}
+
 .home-menu{
  display: inline;
  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
  font-weight: 300;
  position:relative;
  top: -130px;
- height: 480px;
+ height: 310px;
  float: right;
  width: 523px;
  margin-right: 50px;
