@@ -99,6 +99,11 @@ html {
   z-index: 6;
 }
 
+#home-pic{
+  height:130px;
+  right: 110px;
+}
+
 .text-emphasis{
   font-weight: bold;
 }
