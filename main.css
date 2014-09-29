@@ -2,6 +2,7 @@ html {
   height: 100%;
 }
 
+
 .nav{
   margin-top: 15px;
   height:50px;
@@ -55,23 +56,26 @@ html {
 }
 
 .jumbotron .banner .text{
-  position: static;
   line-height: 10px;
+  padding-left: 60px;
 }
 .jumbotron .banner h1 {
-  position: static;
   font-size: 50px;
-  padding-left: 60px;
   padding-top: 40px;
   color: white;
   font-weight: 200;
 }
 
 .jumbotron .banner p {
-  position: static; 
-  display: inline;
-  padding-left: 60px;
   font-size: 20px;
+}
+
+.text-emphasis{
+  font-weight: bold;
+}
+
+.text-emphasis2{
+  font-style: italic;
 }
 
 .picture-background{
@@ -93,9 +97,9 @@ html {
 .jumbotron img {
   position: absolute;
   top: 148px;
-  right: 190px;
+  right-margin: 190px;
   height: 400px;
-  text-align: right;
+  
   z-index: 6;
 }
 
@@ -104,24 +108,16 @@ html {
   right: 110px;
 }
 
-.text-emphasis{
-  font-weight: bold;
-}
-
-.text-emphasis2{
-  font-style: italic;
-}
-
 .home-menu{
  display: inline;
  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
  font-weight: 300;
- position:relative;
- top: -130px;
+ position:absolute;
+ top: 99px;
  height: 310px;
- float: right;
  width: 523px;
- margin-right: 50px;
+ margin-left: 670px;
+ margin-right: 70px;
  padding-top: 180px;
  padding-left: 80px;  
  padding-right: 30px;
