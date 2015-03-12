@@ -28,6 +28,7 @@ h1{
 #log {
 	margin-top: 10%;
 	min-width: 40%;
+	font-size: 18px;
 	color: #4a4a4a;
 }
 
@@ -86,6 +87,7 @@ hr{
 .logcontent{
 	margin-left: 5%;
 	text-align: left;
+	font-size: 16px;
 }
 
 .activebtn{
@@ -94,6 +96,10 @@ hr{
 	outline: none;
 	outline-width: 0px;
 	outline-color: white;
+}
+
+#goal {
+	color: #397959;
 }
 
 .logdate{
