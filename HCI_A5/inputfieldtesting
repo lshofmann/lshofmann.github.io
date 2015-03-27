@@ -13,11 +13,12 @@
 
     <script>
     window.onload = function() {
-      document.getElementById("butt").onclick = function(){
-        var pie = document.getElementById("inputfield").value;
-        console.log(pie);
-        if(pie == "give me pie"){
-          location.href = "http://s3.amazonaws.com/gmi-digital-library/3cf7cb34-8f77-4885-bfec-697f96dd5d61.jpg";
+      document.getElementById("inputfield").onkeydown = function(){
+        console.log(event.keyCode);
+        if(event.keyCode == 13){
+          if(document.getElementById("inputfield").value == "give me pie"){
+            location.href = "http://s3.amazonaws.com/gmi-digital-library/3cf7cb34-8f77-4885-bfec-697f96dd5d61.jpg";
+          }
         }
       };
     };
@@ -25,7 +26,7 @@
 </head>
 
 <body>
-	<h1> Enter the phrase 'give me pie' to see a picture </h1>
+    <h1> Enter the phrase 'give me pie' to see a picture </h1>
 
   <div class="col-lg-6">
     <div class="input-group">
